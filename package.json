@@ -63,7 +63,7 @@
 			{
 				"provider": "github",
 				"owner": "MasterP-kr",
-				"repo": "WheelChair-Client"
+				"repo": "client-test"
 			}
 		],
 		"mac": {
