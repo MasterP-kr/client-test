@@ -29,6 +29,6 @@ module.exports = async () => {
     windows[GAME_WINDOW] = await createGameWindow()
     initKeyBinds()
   })
-  await win.loadURL(path.join(__dirname, '..\\index.html') + '#v' + app.getVersion())
+  win.loadURL(path.join(__dirname, '..\\index.html') + '#v' + app.getVersion())
   return win
 }
